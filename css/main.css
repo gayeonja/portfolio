@@ -1,0 +1,29 @@
+.name {
+    text-align: right;
+}
+
+/* small */
+@media (max-width: 768px) {
+    .melon_soda {
+        padding-bottom: 50px; 
+    }
+    .name {
+        padding-bottom: 50px; 
+        padding-right: 20px; 
+    }
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    .spacing {
+        margin-top: 20%; 
+        margin-bottom: 20%; 
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    .spacing {
+        margin-top: 0px;  
+        margin-bottom: 0px; 
+    }
+}

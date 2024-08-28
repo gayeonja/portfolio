@@ -1,0 +1,304 @@
+body {
+  /* margin-left: 50px; 
+  margin-right: 50px;  */
+  margin-top: 70px; 
+  font-family: Helvetica, sans-serif;
+  font-weight: 27.28;
+  height: 100%;
+  margin-bottom: 0px; 
+}
+
+.fake-container {
+  margin-left: 50px; 
+  margin-right: 50px; 
+}
+
+.box {
+  width: 100%; 
+  margin-bottom: 0%; 
+}
+
+.work_h1 {
+  font-weight: 700; 
+  margin-top: 10px;
+  font-size: 80px; 
+}
+
+.stars {
+  margin-top: 4%; 
+  margin-bottom: 4%; 
+  text-align: center;
+}
+
+.center {
+  text-align: right;
+  justify-content: center;
+  align-items: center;
+}
+
+.computer {
+  width: 23%; 
+}
+
+.topp {
+  display: flex;
+  flex-wrap: wrap; 
+}
+
+.description {
+  text-align: center;
+  justify-content: center;
+  width: 50%; 
+  margin: auto;
+}
+
+.works {
+  justify-content: center;
+}
+
+.a_work_img_container {
+  width: 50%; 
+  overflow: hidden;
+}
+
+.a_work_text_container {
+  width: 50%; 
+  padding-right: 3%; 
+  padding-top: 3%; 
+  padding-bottom: 3%; 
+}
+
+.a_work_img {
+  height: 100%; 
+}
+
+.a_work_project {
+  font-weight: 700; 
+  font-size: 35px; 
+}
+
+.a_work_types {
+  display: flex;
+}
+
+.a_work_type {
+  border: 1px solid black;
+  border-radius: 15px;
+  font-size: 12px; 
+  display: flex;
+  align-items: center; 
+}
+
+.pink-circle {
+  width: 10px; 
+  height: 10px; 
+  background-color: pink; 
+  border-radius: 50%; 
+}
+
+.red-circle {
+  width: 10px; 
+  height: 10px; 
+  background-color: #c21d1d; 
+  border-radius: 50%; 
+}
+
+.green-circle {
+  width: 10px; 
+  height: 10px; 
+  background-color: #1f991d; 
+  border-radius: 50%; 
+}
+
+.blue-circle {
+  width: 10px; 
+  height: 10px; 
+  background-color: #4d9aff; 
+  border-radius: 50%; 
+}
+
+.space {
+  padding: 4px;
+}
+
+.space1 {
+  padding: 10px;
+}
+
+.front {
+  display: flex;
+}
+
+.card {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 35vh; 
+  overflow: hidden; 
+  perspective: 1000px; 
+  border-radius: 15px;
+}
+
+.content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  border-radius: 15px;
+}
+
+.card:hover .content {
+  transform: rotateY(180deg);
+  transition: transform 0.5s;
+}
+
+.front,
+.back {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: white;
+  border-radius: 15px;
+  backface-visibility: hidden;
+}
+
+.back {
+  color: white;
+  transform: rotateY(180deg);
+  justify-content: center;
+  align-items: center;
+}
+
+.a_work_img2 {
+  width: 100%;
+  height: auto; 
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+a {
+  text-decoration: none; 
+  color: black; 
+}
+
+a:hover {
+  color: black; 
+}
+
+.pelican_container {
+  text-align: center;
+}
+
+.pelican {
+  width: 20%; 
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 768px) { 
+  .stars img {
+      width: 8%; 
+      padding-top: 5%;
+      padding-bottom: 5%;
+  }
+  .a_work_img_container {
+    width: 0%; 
+  }
+  .a_work_text_container {
+    width: 100%; 
+    padding-left: 5%;
+    padding-bottom: 5%;
+  }
+  .a_work_img2 {
+    width: 100%;
+    height: auto;
+  }
+  .computer {
+    width: 70%; 
+  }
+  .center {
+    text-align: center;
+    margin-left: 2%; 
+  }
+  .card {
+    width: 70%;
+  }
+  .pelican {
+    width: 60%; 
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+  .stars img {
+      width: 6%; 
+      padding-top: 3%;
+      padding-bottom: 3%;
+  }
+  .a_work_img_container {
+    width: 0%; 
+  }
+  .a_work_text_container {
+    width: 100%; 
+    padding-left: 5%;
+    padding-bottom: 5%;
+  }
+  .a_work_position {
+    font-size: 15px; 
+  }
+  .a_work_img2 {
+    width: 100%;
+    height: auto;
+  }
+  .computer {
+    width: 40%; 
+    margin-left: 2%; 
+  }
+  .center {
+    text-align: right;
+  }
+  .card {
+    width: 50%;
+  }
+  .pelican {
+    width: 40%; 
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 1025px) { 
+  .stars img {
+      width: 4%; 
+      padding-top: 2%;
+      padding-bottom: 2%;
+  }
+  .a_work_img_container {
+    width: 50%; 
+  }
+  .a_work_text_container {
+    width: 50%; 
+    padding-left: 0%;
+    padding-bottom: 0%;
+  }
+  .a_work_img2 {
+    width: 100%;
+    height: auto;
+  }
+  .computer {
+    width: 25%; 
+    margin-left: 2%; 
+  }
+  .center {
+    text-align: right;
+  }
+  .card {
+    width: 50%;
+  }
+  .pelican {
+    width: 30%; 
+  }
+}
