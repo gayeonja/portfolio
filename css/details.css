@@ -1,0 +1,173 @@
+/* Text CSS */
+body {
+    font-weight: 27.28;
+}
+.headers {
+    font-weight: bold;
+    font-size: 128;
+    margin: 0; 
+    padding: 0; 
+}
+.title {
+    font-size: 60;
+    font-weight: bold;
+    margin: 0; 
+    padding: 0; 
+}
+.subtitle {
+    font-weight: bold;
+    font-size: 40;
+    margin: 0; 
+    padding: 0; 
+    /* color: #0072D7; */
+}
+.texts {
+    font-size: 28;
+    margin: 0; 
+    padding: 0; 
+}
+.icon-font {
+    font-size: 15;
+    font-weight: bold;
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100%;
+}
+.black {
+    color: rgb(216, 216, 216); 
+}
+
+/* logo on top in box */
+.top-logo-box {
+    height: 4vh; 
+    text-align: center;
+}
+.top-logo {
+    height: 100%; 
+}
+
+/* Main Image CSS */
+.main-image-container {
+    height: 50vh; 
+    /* background-color: grey; */
+    /* background-image: url('../img/medigo.png'); */ /* uncomment this line and replace the url */
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.phoneimg {
+    width: 40%;
+    padding-left: 2%; 
+    padding-right: 2%; 
+    height: auto;
+}
+.main-title {
+    padding-left: 3%; 
+    padding-right: 3%; 
+}
+
+/* Transitions */ 
+.line {
+    width: 20%; 
+    border: none; 
+    height: 0; 
+    background-color: black;
+    
+    border-top: 2px solid black; 
+    color: black; 
+    margin: 0; 
+    padding: 0; 
+}
+.center-line {
+    display: flex;
+    justify-content: center;
+}
+.space-between {
+    padding-top: 60px; 
+}
+
+/* Text aligns */ 
+.left-align {
+    text-align: left;
+}
+
+.right-align {
+    text-align: right;
+}
+
+/* top indicatiors */
+.a_work_project {
+    font-weight: 700; 
+    font-size: 35px; 
+    line-height: 1.1;
+}
+
+.a_work_types {
+    display: flex;
+}
+
+.a_work_type {
+    border: 1px solid black;
+    border-radius: 15px;
+    font-size: 12px; 
+    display: flex;
+    align-items: center; 
+}
+
+.pink-circle {
+    width: 10px; 
+    height: 10px; 
+    background-color: pink; 
+    border-radius: 50%; 
+}
+
+.red-circle {
+    width: 10px; 
+    height: 10px; 
+    background-color: #c21d1d; 
+    border-radius: 50%; 
+}
+
+.green-circle {
+    width: 10px; 
+    height: 10px; 
+    background-color: #1f991d; 
+    border-radius: 50%; 
+}
+
+.blue-circle {
+    width: 10px; 
+    height: 10px; 
+    background-color: #4d9aff; 
+    border-radius: 50%; 
+}
+
+/* what language */
+.yellow-circle {
+    width: 10px; 
+    height: 10px; 
+    background-color: #f7db4f; 
+    border-radius: 50%; 
+}
+
+/* coded where e.g. android studio */
+.orange-circle {
+    width: 10px; 
+    height: 10px; 
+    background-color: #ff8b17; 
+    border-radius: 50%; 
+}
+
+.space {
+    padding: 4px;
+}
+.space1 {
+    padding: 10px;
+}
+.space2 {
+    padding: 20px;
+}

@@ -1,0 +1,16 @@
+.main-image-container {
+    height: 50vh; 
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+.top-box {
+    background-color: black;
+}
+
+.title-logo {
+    height: 10%; 
+    width: auto;
+    align-items: center;
+}
