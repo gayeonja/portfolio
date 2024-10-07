@@ -162,6 +162,30 @@ body {
     border-radius: 50%; 
 }
 
+/* github app */
+.link {
+    text-decoration: none;
+    color: inherit; 
+}
+.center {
+    display: flex;
+    justify-content: center;
+}
+.github_button {
+    height: 100px; 
+    width: 275px; 
+    border-radius: 15px; 
+    background-color: black;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.github_app {
+    height: 75%; 
+    width: auto; 
+}
+
 .space {
     padding: 4px;
 }
