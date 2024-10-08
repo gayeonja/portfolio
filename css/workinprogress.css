@@ -1,8 +1,14 @@
+.all {
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 
 /* Small devices (landscape phones, 576px and up) */
 @media (max-width: 700px) {
     .pelican {
-        margin-top: 100px; 
         width: 80%; 
         margin-bottom: 50px; 
     }
@@ -11,15 +17,14 @@
         font-weight: bold;
         font-size: 20pt; 
         text-align: center;
-        margin-bottom: 100px;
     }    
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 700px) {
     .pelican {
-        margin-top: 100px; 
         width: 60%; 
+        height: auto; 
         margin-bottom: 50px; 
     }
     
@@ -27,7 +32,6 @@
         font-weight: bold;
         font-size: 20pt; 
         text-align: center;
-        margin-bottom: 100px;
     }
     
 }
@@ -35,8 +39,8 @@
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 1200px) {
     .pelican {
-        margin-top: 100px; 
-        width: 50%; 
+        width: 70%; 
+        height: auto; 
         margin-bottom: 50px; 
     }
     
@@ -46,6 +50,5 @@
         font-weight: bold;
         font-size: 20pt; 
         text-align: center;
-        margin-bottom: 100px;
     }    
 }
