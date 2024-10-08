@@ -246,8 +246,9 @@ a:hover {
   }
   .a_work_text_container {
     width: 100%; 
-    padding-left: 5%;
-    padding-bottom: 5%;
+    padding: 3%; 
+    /* padding-left: 5%;
+    padding-bottom: 5%; */
   }
   .a_work_position {
     font-size: 15px; 
@@ -283,8 +284,9 @@ a:hover {
   }
   .a_work_text_container {
     width: 50%; 
-    padding-left: 0%;
-    padding-bottom: 0%;
+    padding: 3%; 
+    /* padding-left: 0%;
+    padding-bottom: 0%; */
   }
   .a_work_img2 {
     width: 100%;
