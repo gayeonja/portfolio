@@ -39,7 +39,7 @@
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 1200px) {
     .pelican {
-        width: 70%; 
+        width: 100%; 
         height: auto; 
         margin-bottom: 50px; 
     }
