@@ -1,0 +1,37 @@
+.main-image-container {
+    height: 50vh; 
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+.top-box {
+    background-color: #B54747;
+}
+
+.text-white {
+    color: white; 
+}
+
+.title-logo {
+    height: 10%; 
+    width: auto;
+    align-items: center;
+}
+
+.phoneimg {
+    width: 50%; 
+}
+
+.top-logo-box {
+    height: 7vh; 
+}
+.top-logo {
+    width: auto; 
+}
+.github_button {
+    background-color: #B54747;
+}
+.white {
+    color: white
+}
